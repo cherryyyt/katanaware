@@ -9278,7 +9278,7 @@ do  -- Signals !
             local Date = dayOfWeek..", "..month.." "..day
             local versionColor = "#".._StringUpper(_tostring(_ToHex(Library.AccentColor)))
             local version = '<font color="'..versionColor..'" size="9">v'..version..'</font>'
-            local str = '<font color="'..hex..'">katanaware.cc</font> '..fps..' fps 〡 '..ping2..' ms 〡 '..Time..' 〡 '..Date..' 〡 UID: '.. '666'
+            local str = '<font color="'..hex..'">katanaware.cc</font> 〡 '..fps..' fps 〡 '..ping2..' ms 〡 '..Time..' 〡 '..Date..' 〡 UID: '.. '666' 
             Library:SetWatermark(str)
         end
     end)
